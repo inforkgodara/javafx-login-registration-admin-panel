@@ -28,18 +28,19 @@
    <right>
       <AnchorPane prefHeight="400.0" prefWidth="300.0" BorderPane.alignment="CENTER">
          <children>
-            <Text fill="#404040" layoutX="47.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Registration" wrappingWidth="206.24869537353516">
+            <Text fill="#404040" layoutX="47.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Registration" wrappingWidth="206.24869537353516">
                <font>
                   <Font name="Wingdings 3" size="27.0" />
                </font>
             </Text>
-            <TextField fx:id="firstName" layoutX="49.0" layoutY="92.0" prefHeight="25.0" prefWidth="202.0" promptText="First Name" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
-            <TextField fx:id="lastName" layoutX="49.0" layoutY="129.0" prefHeight="25.0" prefWidth="202.0" promptText="Last Name" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
-            <TextField fx:id="email" layoutX="49.0" layoutY="163.0" prefHeight="25.0" prefWidth="202.0" promptText="Email" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
-            <TextField fx:id="username" layoutX="49.0" layoutY="199.0" prefHeight="25.0" prefWidth="202.0" promptText="User Name" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
-            <PasswordField fx:id="password" layoutX="49.0" layoutY="235.0" prefHeight="25.0" prefWidth="202.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
-            <PasswordField fx:id="confirmPassword" layoutX="49.0" layoutY="270.0" prefHeight="25.0" prefWidth="202.0" promptText="Confirm Password" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
-            <Button fx:id="registerButton" layoutX="112.0" layoutY="318.0" mnemonicParsing="false" onAction="#register" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #404040; -fx-background-radius: 0px;" text="Submit" textFill="WHITE" />
+            <TextField fx:id="firstName" layoutX="49.0" layoutY="76.0" prefHeight="25.0" prefWidth="202.0" promptText="First Name" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="lastName" layoutX="49.0" layoutY="113.0" prefHeight="25.0" prefWidth="202.0" promptText="Last Name" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="email" layoutX="49.0" layoutY="147.0" prefHeight="25.0" prefWidth="202.0" promptText="Email" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="username" layoutX="49.0" layoutY="183.0" prefHeight="25.0" prefWidth="202.0" promptText="User Name" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField fx:id="password" layoutX="49.0" layoutY="219.0" prefHeight="25.0" prefWidth="202.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField fx:id="confirmPassword" layoutX="49.0" layoutY="254.0" prefHeight="25.0" prefWidth="202.0" promptText="Confirm Password" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
+            <Button fx:id="registerButton" layoutX="112.0" layoutY="302.0" mnemonicParsing="false" onAction="#register" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #404040; -fx-background-radius: 0px;" text="Submit" textFill="WHITE" />
+            <Text fill="#404040" layoutX="66.0" layoutY="358.0" onMouseClicked="#showLoginStage" strokeType="OUTSIDE" strokeWidth="0.0" text="Already have an account? Login" />
          </children>
       </AnchorPane>
    </right>

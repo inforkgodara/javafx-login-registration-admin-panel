@@ -36,6 +36,7 @@
                   <Font name="Wingdings 3" size="27.0" />
                </font>
             </Text>
+            <Text fill="#404040" layoutX="62.0" layoutY="312.0" onMouseClicked="#showRegisterStage" strokeType="OUTSIDE" strokeWidth="0.0" text="Dont't have an account? Register" />
          </children>
       </AnchorPane>
    </right>

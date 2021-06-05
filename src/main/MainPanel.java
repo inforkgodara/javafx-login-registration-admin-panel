@@ -17,14 +17,13 @@ import javafx.stage.Stage;
  * @author Ramesh Godara
  */
 public class MainPanel extends Application {
-    
+
     public void start(Stage stage) throws Exception {
-        
-        Parent root = FXMLLoader.load(getClass().getResource("/view/RegisterView.fxml"));
-        
+
+        Parent root = FXMLLoader.load(getClass().getResource("/view/LoginView.fxml"));
+
         Scene scene = new Scene(root);
-       
-        
+
         stage.setScene(scene);
         stage.setTitle("Admin Panel");
         stage.getIcons().add(new Image("/asset/icon.png"));
@@ -36,6 +35,6 @@ public class MainPanel extends Application {
      */
     public static void main(String[] args) {
         launch(args);
+
     }
-    
 }

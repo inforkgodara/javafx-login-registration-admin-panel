@@ -7,6 +7,7 @@ package controller;
 
 import database.DbConnection;
 import helper.AlertHelper;
+import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -14,13 +15,16 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ResourceBundle;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.stage.Stage;
 import javafx.stage.Window;
 
 /**
@@ -90,7 +94,7 @@ public class RegisterController implements Initializable {
 
             } catch (SQLException ex) {
                 AlertHelper.showAlert(Alert.AlertType.ERROR, window, "Error",
-                            "Something went wrong.");
+                        "Something went wrong.");
             }
         }
     }
@@ -187,5 +191,20 @@ public class RegisterController implements Initializable {
         password.clear();
         confirmPassword.clear();
         return true;
+    }
+
+    @FXML
+    private void showLoginStage() throws IOException {
+        Stage stage = (Stage) registerButton.getScene().getWindow();
+        stage.close();
+
+        Parent root = FXMLLoader.load(getClass().getResource("/view/LoginView.fxml"));
+
+        Scene scene = new Scene(root);
+
+        stage.setScene(scene);
+        stage.setTitle("User Login");
+        stage.getIcons().add(new Image("/asset/icon.png"));
+        stage.show();
     }
 }
