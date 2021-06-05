@@ -39,7 +39,7 @@
             <TextField fx:id="username" layoutX="49.0" layoutY="199.0" prefHeight="25.0" prefWidth="202.0" promptText="User Name" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
             <PasswordField fx:id="password" layoutX="49.0" layoutY="235.0" prefHeight="25.0" prefWidth="202.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
             <PasswordField fx:id="confirmPassword" layoutX="49.0" layoutY="270.0" prefHeight="25.0" prefWidth="202.0" promptText="Confirm Password" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
-            <Button fx:id="submitButton" layoutX="112.0" layoutY="318.0" mnemonicParsing="false" onAction="#register" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #404040; -fx-background-radius: 0px;" text="Submit" textFill="WHITE" />
+            <Button fx:id="registerButton" layoutX="112.0" layoutY="318.0" mnemonicParsing="false" onAction="#register" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #404040; -fx-background-radius: 0px;" text="Submit" textFill="WHITE" />
          </children>
       </AnchorPane>
    </right>
