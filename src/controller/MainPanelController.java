@@ -80,7 +80,6 @@ public class MainPanelController implements Initializable {
     private void loadFXML(String fileName) {
         Parent parent;
         try {
-//            parent = FXMLLoader.load(getClass().getResource("/test/FXML.fxml"));
             parent = FXMLLoader.load(getClass().getResource("/view/" + fileName + ".fxml"));
             borderPane.setCenter(parent);
 

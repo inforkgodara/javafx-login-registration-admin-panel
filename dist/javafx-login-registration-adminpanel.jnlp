@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="javafx-login-registration-adminpanel.jar" size="29374" download="eager" />
+    <jar href="javafx-login-registration-adminpanel.jar" size="29512" download="eager" />
     <jar href="lib\JFXMaterial.jar" size="107774" download="eager" />
     <jar href="lib\JFXMaterialDemo.jar" size="1083571" download="eager" />
     <jar href="lib\aopalliance-1.0.jar" size="4467" download="eager" />

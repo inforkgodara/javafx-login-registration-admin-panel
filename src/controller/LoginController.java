@@ -60,7 +60,6 @@ public class LoginController implements Initializable {
     @FXML
     private void login() throws Exception {
 
-//        window = loginButton.getScene().getWindow();
         if (this.isValidated()) {
             PreparedStatement ps;
             ResultSet rs;
