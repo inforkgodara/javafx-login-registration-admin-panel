@@ -25,7 +25,7 @@ public class MainPanel extends Application {
         Scene scene = new Scene(root);
 
         stage.setScene(scene);
-        stage.setTitle("Admin Panel");
+        stage.setTitle("User Login");
         stage.getIcons().add(new Image("/asset/icon.png"));
         stage.show();
     }

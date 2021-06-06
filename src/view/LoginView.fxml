@@ -29,7 +29,7 @@
    <right>
       <AnchorPane prefHeight="400.0" prefWidth="300.0" BorderPane.alignment="CENTER">
          <children>
-            <TextField fx:id="username" layoutX="49.0" layoutY="163.0" prefHeight="25.0" prefWidth="202.0" promptText="User Name" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="username" layoutX="49.0" layoutY="163.0" prefHeight="25.0" prefWidth="202.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
             <PasswordField fx:id="password" layoutX="49.0" layoutY="202.0" prefHeight="25.0" prefWidth="202.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
             <Button fx:id="loginButton" layoutX="112.0" layoutY="255.0" mnemonicParsing="false" onAction="#login" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #404040; -fx-background-radius: 0px;" text="Login" textFill="WHITE">
                <cursor>
