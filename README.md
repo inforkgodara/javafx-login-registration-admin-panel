@@ -4,7 +4,7 @@ This is a JavaFX small project which has user login, user registration, informat
 ## Demo
 * Video clip on youtube of the project demonstration. https://youtu.be/LwlF5szrmMY
 
-### Note: If this project helped you kindly don't forget to give this repository a star that motivates me to work further and improve this project. I am trying too hard to get this project done somehow every weekend.
+### Note: If this project helped you kindly don't forget to give this repository a star that motivates me to work further and improve this project. I am trying too hard to get this project done somehow every weekend. One more important thing if you are using this project as part of your development don't forget to store password in encrypted form in database and use valid validation on each part of application.
 
 ## Prerequisites
 
